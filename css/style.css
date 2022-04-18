@@ -446,10 +446,22 @@ header{
     h1, h2 {
         text-align: center;
     }
+
+    .menu li {
+        display: inline-block;
+        float: none;
+        margin-right: 20px;
+        line-height: 18px;
+        margin-top: 12px;
+    }
+
+    
+
+
     .hello{
 
         margin: auto;
-        padding-top: 310px;
+        padding-top: 150px;
         padding-bottom: 400px;
         width: 100%;
         display: flex;
@@ -616,12 +628,6 @@ header{
 
 
 
-
-
-
-
-
-
 }
 
 .dark-mode {
@@ -665,10 +671,5 @@ header{
 }
 .dark-mode .navigation a {
     background-color: #0D405C;
-    color: white;
-}
-
-.dark-mode .photo_profil img {
-    
     color: white;
 }
