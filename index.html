@@ -11,7 +11,10 @@
 <body>
 
 <header class="header">
+    
     <nav class="navigation">
+        
+
         <ul class="menu">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">A propos</a></li>
@@ -20,6 +23,7 @@
             <li><a href="#competences">Compétences</a></li>
             <li><a href="#interet">Intérêts</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><div class="bouton_dark" onclick="myFunction()"><i class="fa-solid fa-moon fa-2xl"></i></div></li>
         </ul>
     </nav>
 </header>
@@ -249,9 +253,17 @@
 
 
 <footer class="footer">
+    
 
 
 </footer>
+
+<script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
 
 
 </body>

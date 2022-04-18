@@ -82,6 +82,11 @@ header{
     text-decoration: none;
 }
 
+.bouton_dark{
+    height: 20px;
+    width: 20px;
+}
+
 .menu{
     display: inline;
 	list-style: none;
@@ -617,4 +622,53 @@ header{
 
 
 
+}
+
+.dark-mode {
+    background-color: #263340;
+    color: white;
+}
+
+.dark-mode p {
+    background-color: #263340;
+    color: rgba(255, 255, 255, 0.89);
+}
+
+.dark-mode h1 {
+    background-color: #263340;
+    color: white;
+}
+
+.dark-mode h2 {
+    background-color: #263340;
+    color: white;
+}
+
+.dark-mode h3 {
+    background-color: #263340;
+    color: white;
+}
+
+.dark-mode h4 {
+    background-color: #263340;
+    color: white;
+}
+
+.dark-mode i {
+    background-color: #263340;
+    color: white;
+}
+
+.dark-mode .navigation {
+    background-color: #0D405C;
+    color: white;
+}
+.dark-mode .navigation a {
+    background-color: #0D405C;
+    color: white;
+}
+
+.dark-mode .photo_profil img {
+    
+    color: white;
 }
